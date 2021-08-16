@@ -133,12 +133,11 @@ body{
     color: white;
     background-color: rgb(27, 26, 26);
     padding-left: 30px;
-    margin-top: 10vh;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    margin-top: 40px;
+    padding-top: 40x;
+    padding-bottom: 40px;
 }
 .item-contato{
-    
     margin-top: 10px;
     flex-direction: row;
     display: flex;
