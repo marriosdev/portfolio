@@ -125,6 +125,7 @@ body{
 .group2 ion-icon{
     font-size: 17pt;
     cursor: pointer;
+    margin-right: 4px;
 }
 .block-social ion-icon{
     align-self: center;
