@@ -158,6 +158,8 @@ body{
     color: white;
 }
 header{
+    padding-top: 10px;
+    padding-bottom: 10px;
     justify-content: space-between;
     display: flex;
     z-index: 60000;
