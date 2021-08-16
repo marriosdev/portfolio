@@ -51,9 +51,8 @@ a{
     width: 100%;
 }
 .title{
-
     text-align: center;
-    font-size: 30pt !important;
+    font-size: 25pt !important;
 }
 .box-item:hover{
     color: white;
@@ -123,7 +122,7 @@ body{
     align-items: center;
 }
 .group2 ion-icon{
-    font-size: 17pt;
+    font-size: 15pt;
     cursor: pointer;
     margin-right: 4px;
 }
