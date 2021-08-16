@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Edmário Oliveira</title>
+</head>
+<body id="body">
+    <header>
+        <div class="group1">
+            <span ><img class="profile" src="img/perfil.jpeg" alt="" srcset=""></span>
+            <span class="item-menu"><strong>Edmário</strong> </span>
+            <span class="item-menu"><a href="#contato"><strong>Contato</strong></a></span>
+            <span class="item-menu"><strong><a href="#projetos"> Projetos</a></strong></span>
+        </div>
+        <div class="group2">
+            <span clas="item-menu icon" id="dark" onclick="lightMode()"><ion-icon name="moon"></ion-icon><p>Escuro</p> </span>
+            <span clas="item-menu icon" id="light" onclick="darkMode()"><ion-icon name="sunny"></ion-icon><p>Claro</p> </span>
+        </div>
+    </header>
+    <div class="main">
+        <div class="sobre" id="sobre">
+            <h1 class="title">Sobre mim</h1>
+            <div class="sobre-p">
+                <p>Prazer meu nome é Edmário, sou programador backend. Bom, tive meu primeiro contato 
+                com a programação por meio do 
+                professor Guanabara do canal Curso em vídeo no ano de 2019, onde tive a oportunidade
+                de aprender minha primeira linguagem que foi Python (ótimo curso inclusive), a partir daí virei autodidata. A cada dia que passa vou me apaixonando mais ainda
+                por essa área maravilhosa. Meu objetivo é evoluir diariamente, aprendendo mais e mais, com os erros e acertos. Atualmente trabalho com PHP/Laravel, Html5 e CSS3</p>
+            </div>
+        </div>
+        <h1 class="title" id="projetos">Projetos</h1>    
+        <div class="box-list"">    
+            <span class="left button-scroll" id="0" onclick="scroll_back(this.id)"><ion-icon  name="chevron-back-outline"></ion-icon></span>
+            <div class="list" id="list">
+                <span class="box-item">
+                    <h4>Chat Day</h4>
+                    <span class="item-list container">
+                        <img src="img/chatday.png" alt="">
+                        <p class="desc-item">Chat Day é uma pequena plataforma de bate-papo online, onde criei um BOT com poucas funcionalidades, já que o objetivo é a interação humana</p>
+                        <br>
+                        <p>Feito em 2020</p>
+                    </span>
+                    <a target="_blank" href="https://chatday.online/" class="button-info"><ion-icon name="open-outline"></ion-icon>Ver projeto</a>
+                </span>
+                <span class="box-item">
+                    <h4>Pluc Encurtador</h4>
+                    <span class="item-list container">
+                        <img src="img/plu2.png" alt="">
+                        <p class="desc-item">Pluc2 é um encurtador de links, feito em: Laravel, HTML, CSS e Js</p>
+                        <br>
+                        <p>Feito em 2021</p>
+                    </span>
+                    <a target="_blank" href="http://pluc.cf/" class="button-info" ><ion-icon name="open-outline"></ion-icon>Ver projeto</a>
+                </span>
+                <span class="box-item">
+                    <h4>Firulin-Console</h4>
+                    <span class="item-list container">
+                        <img src="img/firulin.png" alt="">
+                        <p class="desc-item">Interface de linha de comando feito em PHP, para me auxiliar em projetos usando o padrão MVC</p>
+                        <br>
+                        <p>Feito em 2021</p>
+                    </span>
+                    <a target="_blank" href="https://github.com/edmariooliver/Firulin-Console"><button class="button-info"><ion-icon name="open-outline"></ion-icon>  Ver projeto</button></a>
+                </span>
+                <span class="box-item">
+                    <h4>Pluto Tasks</h4>
+                    <span class="item-list container">
+                        <img src="img/plutotasks.png" alt="">
+                        <p class="desc-item">Pluto Tasks é um sistema para gerenciamento  de tarefas.</p>
+                        <br>
+                        <p>Feito em 2020</p>
+                    </span>
+                    <a target="_blank" href="http://www.plutotasks.epizy.com" class="button-info" ><ion-icon name="open-outline"></ion-icon>  Ver projeto</a>
+                </span>
+            </div>            
+            <span class="button-scroll right" id="0" onclick="scroll_next(this.id)"><ion-icon   name="chevron-forward-outline"></ion-icon></span>
+        </div>
+    
+        <div class="contato" id="contato">
+            <h1 class="title" id="contato">Contato</h1>
+            <div class="block-social">
+                <span class="item-contato"><ion-icon name="mail-outline"></ion-icon><p>edmariooliveira2002@hotmail.com</p> </span>
+                <span class="item-contato"><ion-icon name="logo-instagram"></ion-icon><a href="instagram.com/_marriosd">@_marriosd</a></span>
+                <span class="item-contato"><ion-icon name="logo-linkedin"></ion-icon><a href="https://www.linkedin.com/in/edm%C3%A1rio-oliveira-a3654a193">Edmário Oliveira de Araujo</a></span>
+                <span class="item-contato"><ion-icon name="earth-outline"></ion-icon><p>Bahia, Brasil</p></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

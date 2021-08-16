@@ -1,0 +1,224 @@
+*{  
+    transition: 100ms;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html, body{
+    width: 100% !important;
+}
+.sobre-p{
+    margin-top: 50px;
+}
+.sobre{
+    padding: 40px;
+    font-size: 16pt;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+a{
+    text-decoration: none;
+}
+#msg1{
+    display: none;
+}
+#msg2{
+    display: none;
+}
+#msg3{
+    display: none;
+}
+#msg4{
+    display: none;
+}
+.list{
+    width: 100%;
+    align-items: center;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+}
+.box-item h4{
+    margin-bottom: 20px;
+}
+.desc-item{
+    margin-top: 20px;
+}
+.box-item img{
+    height: 200px;
+    width: 100%;
+}
+.title{
+
+    text-align: center;
+    font-size: 30pt !important;
+}
+.box-item:hover{
+    color: white;
+    background-color: rgb(65, 185, 255);
+}
+.box-item{
+    text-indent: 0 !important;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: rgba(163, 161, 161, 0.123);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin: 30px;
+}
+.first{
+    margin-top: 40px;
+    text-align: center;
+    transition: 100ms !important;
+}
+#light{
+    display: none;
+}
+#dark{
+}
+.main{
+    padding-top: 40px;
+}
+body{
+    text-indent: 40px;
+    color: white;
+    background-color: #191919;
+}
+.item-list{
+    width: 280px;
+    word-wrap: break-word;
+    height: 400px;
+}
+.button-info ion-icon{
+    margin-right: 5px !important;
+}
+.button-info:hover{
+    box-shadow: 3px 3px 10px solid grey;
+    background: linear-gradient(to left, rgb(39, 39, 129), rgb(6, 94, 153));
+}
+.button-info{
+    box-shadow: 2px 3px 10px solid grey;
+    transition: 400ms;
+    color: white;
+    background: linear-gradient(to left, rgb(69, 69, 251), rgb(5, 155, 255));
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    font-size: 12pt;
+    padding: 10px;
+}
+.group1{
+    display: flex;
+    align-items: center;
+}
+.group2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.group2 ion-icon{
+    font-size: 20pt;
+    cursor: pointer;
+}
+.block-social ion-icon{
+    align-self: center;
+}
+.contato{
+    color: white;
+    background-color: rgb(27, 26, 26);
+    padding-left: 30px;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.item-contato{
+    
+    margin-top: 10px;
+    flex-direction: row;
+    display: flex;
+}
+.block-social a{
+    color: white;
+}
+.block-social{
+    
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    z-index: 60000;
+    margin-bottom: 40px;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+header a{
+    color: white;
+}
+.item-menu p{
+    font-size: 11pt !important;
+}
+.item-menu{
+    text-align: center;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    margin-left: 4px;
+    transition: 300ms;
+}
+.profile{
+    border-radius: 40px;
+    height: 50px;
+    width: 50px;
+}
+
+.left{
+    z-index: 3000;
+    left: 0;
+}
+.right{
+    z-index: 3000;
+    right: 0;
+}
+.button-scroll{
+    color: white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to left, rgb(69, 69, 251), rgb(5, 155, 255));
+    position: absolute;
+    cursor: pointer;
+    font-size: 50px;
+}
+.box-list{
+    display: flex;
+    align-items: center;
+}
+/* para  Firefox */
+* {
+    scrollbar-width: none;
+    scrollbar-color: none;
+    } 
+    
+/* Para on Chrome, Edge, e Safari */
+*::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: none;
+    border-radius: 0px;
+    border: 0px solid none;
+}
