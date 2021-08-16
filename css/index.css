@@ -167,13 +167,13 @@ header a{
     color: white;
 }
 .item-menu p{
-    font-size: 11pt !important;
+    font-size: 10pt !important;
 }
 .item-menu{
     text-align: center;
     border-bottom: 2px solid black;
     cursor: pointer;
-    margin-left: 4px;
+    margin-left: 3px;
     transition: 300ms;
 }
 .profile{
