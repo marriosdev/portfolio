@@ -7,13 +7,13 @@
     scroll-behavior: smooth;
 }
 .sobre-p{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .sobre{
     padding: 40px;
     font-size: 16pt;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 a{
     text-decoration: none;
@@ -133,29 +133,24 @@ body{
     cursor: pointer;
 }
 .block-social ion-icon{
+    font-size: 16pt;
+    color: rgb(0, 167, 209);
     margin-right: 5px;
     align-self: center;
 }
 .contato{
-    padding-bottom: 60px;
-    padding-left: 10px;
+    font-size: 14pt;
+    margin-top: 100px;
+    padding-left: 30px;
     text-indent: 0;
-    padding-top: 20px;
-    color: white;
-    background-color: rgb(27, 26, 26);
 }
 .item-contato{
-    color: white;
     margin-top: 10px;
     flex-direction: row;
     display: flex;
 }
-.item-contato a{
-    color: white;
-}
 .item-contato ion-icon{
     margin-right: 5px;
-    color: white;
 }
 header{
     padding-top: 10px;
@@ -217,4 +212,18 @@ header a{
     background-color: none;
     border-radius: 0px;
     border: 0px solid none;
+}
+a {
+    color: rgb(0, 167, 209);
+}
+
+.github{
+    margin-top: 60px;
+    text-align: center;
+}
+.github-block{
+    margin: 20px;
+}
+.item-github{
+    margin: 10px;
 }
