@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/index.css">
@@ -13,103 +14,77 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Edmário Oliveira</title>
 </head>
-<body id="body">
+
+<body>
     <header>
-        <div class="group1">
-            <a href="#sobre"><span class="item-menu"><img class="profile" src="https://avatars.githubusercontent.com/u/49793161" alt="" srcset=""></span></a>
-            <!-- <span class="item-menu"><a href="#tecs"><strong>Tecs</strong></a></span> -->
-            <span class="item-menu"><a href="#contato"><strong>Contato</strong></a></span>
-            <span class="item-menu"><strong><a href="#projetos"> Projetos</a></strong></span>
-        </div>
-        <div class="group2">
-            <span clas="item-menu icon" id="dark" onclick="lightMode()"><ion-icon name="moon"></ion-icon><p>Escuro</p> </span>
-            <span clas="item-menu icon" id="light" onclick="darkMode()"><ion-icon name="sunny"></ion-icon><p>Claro</p> </span>
-        </div>
+        <a href="#sobre" class="item-menu"><img class="profile" src="https://avatars.githubusercontent.com/u/49793161"
+                alt="" srcset=""></span></a>
+        <a href="#sobre" class="item-menu">Sobre</a>
+        <a href="#links" class="item-menu">Links</a>
     </header>
     <div class="main">
-        <div class="contato" id="contato">
-            <h1 class="title" id="contato">Contato</h1>
-            <div class="block-social">
-                <span class="item-contato"><ion-icon name="mail-outline"></ion-icon><p>edmariooliveira2002@hotmail.com</p> </span>
-                <span class="item-contato"><a href="https://github.com/edmariooliver/" target="_blank"><ion-icon name="logo-github"></a></ion-icon>Edmariooliver</p></span>
-                <span class="item-contato"><a href="https://instagram.com/_marriosd" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>@_marriosd</span>
-                <span class="item-contato"><a href="https://www.linkedin.com/in/edm%C3%A1rio-oliveira-a3654a193" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>Edmário Oliveira de Araujo</span>
-                <span class="item-contato"><ion-icon name="earth-outline"></ion-icon><p>Bahia, Brasil</p></span>
-            </div>
-        </div>
         <div class="sobre" id="sobre">
             <h1 class="title">Sobre mim</h1>
-            <div class="sobre-p">
-              <p>Apaixonado por tecnologia, amo resolver problemas, melhorar soluções existentes e automatizar processos; com foco no Back-end  utilizo PHP como linguagem principal.</p>
-            </div>
+            <div class="sobre-p">Apaixonado por tecnologia, amo resolver problemas, melhorar soluções existentes e
+                automatizar processos; com foco no Back-end utilizo PHP como linguagem principal.</div>
         </div>
-        <h1 class="title" id="projetos">Projetos</h1>    
-        <div class="box-list">    
-            <span class="left button-scroll" id="0" onclick="scroll_back(this.id)"><ion-icon  name="chevron-back-outline"></ion-icon></span>
-            <div class="list" id="list">
-                <span class="box-item">
-                    <h4>Firulin-core</h4>
-                    <span class="item-list container">
-                        <img src="img/firulin-core.png" alt="">
-                        <p class="desc-item">Mini framework para criar interfaces de linha de comando com PHP.</p>
-                        <br>
-                        <p>Feito em 2021</p>
-                    </span>
-                    <a target="_blank" href="https://github.com/edmariooliver/Firulin-core"><button class="button-info"><ion-icon name="open-outline"></ion-icon>  Ver projeto</button></a>
+
+        <div class="cards" id="links">
+            <a href="mailto:edmariooliveira2002@hotmail.com" class="card-item">
+                <span class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
                 </span>
-                <span class="box-item">
-                    <h4>Chat Day</h4>
-                    <span class="item-list container">
-                        <img src="img/chatday.png" alt="">
-                        <p class="desc-item">Chat Day é uma pequena plataforma de bate-papo online, onde criei um BOT com poucas funcionalidades, já que o objetivo é a interação humana</p>
-                        <br>
-                        <p>Feito em 2020</p>
-                    </span>
-                    <a target="_blank" href="https://chat-php.vercel.app/" class="button-info"><ion-icon name="open-outline"></ion-icon>Ver projeto</a>
+                <span class="card-text">
+                    E-mail
                 </span>
-                <span class="box-item">
-                    <h4>Pluc Encurtador</h4>
-                    <span class="item-list container">
-                        <img src="img/plu2.png" alt="">
-                        <p class="desc-item">Pluc2 é um encurtador de links, feito em: Laravel, HTML, CSS e Js</p>
-                        <br>
-                        <p>Feito em 2021</p>
-                    </span>
-                    <a target="_blank" href="https://pluc-link.herokuapp.com/" class="button-info" ><ion-icon name="open-outline"></ion-icon>Ver projeto</a>
+            </a>
+            <a href="https://github.com/edmariooliver/" target="_blank" class="card-item">
+                <span class="icon">
+                    <ion-icon name="logo-github"></ion-icon>
                 </span>
-                <span class="box-item">
-                    <h4>REVAPP</h4>
-                    <span class="item-list container">
-                        <img src="img/rev.png" alt="">
-                        <p class="desc-item">Sistema para gestão de clientes e produtos. Feito em: PHP 8, Laravel 8, Css3, Html5, JavaScript e Mysql</p>
-                        <br>
-                        <p>Feito em 2021</p>
-                    </span>
-                    <a target="_blank" href="https://revenda-app.herokuapp.com/login" class="button-info" ><ion-icon name="open-outline"></ion-icon>Ver projeto</a>
+                <span class="card-text">
+                    Github
                 </span>
-                <span class="box-item">
-                    <h4>Pokedex</h4>
-                    <span class="item-list container">
-                        <img src="img/pokedex.png" alt="">
-                        <p class="desc-item">Pokedex criada com Vuejs </p>
-                        <br>
-                        <p>Feito em 2021</p>
-                    </span>
-                    <a target="_blank" href="https://pokedexvue.vercel.app/"><button class="button-info"><ion-icon name="open-outline"></ion-icon>  Ver projeto</button></a>
+            </a>
+            <a href="https://instagram.com/marrios.dev" target="_blank" class="card-item">
+                <span class="icon">
+                    <ion-icon name="logo-instagram"></ion-icon>
                 </span>
-                <span class="box-item">
-                    <h4>Firulin2 - MVC</h4>
-                    <span class="item-list container">
-                        <img src="img/firulin.png" alt="">
-                        <p class="desc-item">Interface de linha de comando com a base do Firulin-core, para me auxiliar em projetos MVC</p>
-                        <br>
-                        <p>Feito em 2021</p>
-                    </span>
-                    <a target="_blank" href="https://github.com/edmariooliver/Firulin2---MVC"><button class="button-info"><ion-icon name="open-outline"></ion-icon>  Ver projeto</button></a>
+                <span class="card-text">
+                    Instagram
                 </span>
-            </div>            
-            <span class="button-scroll right" id="0" onclick="scroll_next(this.id)"><ion-icon   name="chevron-forward-outline"></ion-icon></span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/edmariooliveira/" target="_blank" class="card-item">
+                <span class="icon">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </span>
+                <span class="card-text">
+                    Linkedin
+                </span>
+            </a>
+            <a target="_blank"
+                href="https://packagist.org/packages/marrios/"
+                class="card-item">
+                <span class="icon">
+                    <ion-icon name="flask-outline"></ion-icon>
+                </span>
+                <span class="card-text">
+                    Packagist
+                </span>
+            </a>
+            <a target="_blank"
+                href="https://www.google.com.br/maps/place/Bonito+-+BA/@-11.968926,-41.4868382,11z/data=!3m1!4b1!4m6!3m5!1s0x76bd564a0e65fb7:0x1a4ac0891185f40d!8m2!3d-11.9672207!4d-41.2650361!16s%2Fm%2F09rvhjg?entry=ttu"
+                class="card-item">
+                <span class="icon">
+                    <ion-icon name="earth-outline"></ion-icon>
+                </span>
+                <span class="card-text">
+                    Bonito, Bahia, Brasil
+                </span>
+            </a>
         </div>
     </div>
 </body>
+
 </html>
